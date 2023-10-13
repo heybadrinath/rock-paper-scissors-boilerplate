@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div id="scoreBoard">
+        <span id="team1score">0</span>
+        <span id="dash">-</span>
+        <span id="team2score">0</span>
+    </div>
+    
+
+    <div id="container">
+        <div class="content box" id="yourBox">
+            <div class="head">You</div>
+            <div id="imageInsert"></div>
+            <div id="inputs">
+                <div>
+                <img src="./assets/paper-logo.png" id="paper">
+                </div>
+                <div>
+                <img src="./assets/rock-logo.png" id="rock">
+                </div>
+                <div>
+                <img src="./assets/scissors-logo.png" id="scissor">
+                </div>
+            </div></div>
+        <div class="content"><img src="./assets/vs.png"></div>
+        <div class="content box">
+            <div class="head">Comp</div>
+            <div id="compInsertImg"></div>
+        </div>
+    </div>
+
+    <div id="result">
+        <div id="whoWon"></div>
+        <button id="playAgain" onclick="replay()">Play Again</button>
+    </div>
+
+
+
+</body>
+</html>
+<script src="./app.js"></script>
